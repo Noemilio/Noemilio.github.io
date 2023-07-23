@@ -78,13 +78,18 @@
       border-radius: 25px;
   }
   .descr{
-    color:green;
+    color:lightgray;
     font-size:1.5rem;
   }
   @media only screen and (max-width: 1000px) {
     .descr{
+      color:lightgray;
       font-size:2rem;
-      color:#258cfb
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .bottomadjuster{
+      margin-bottom: 20rem;
     }
   }
   
@@ -138,11 +143,11 @@
         <div style="font-size: 4.5rem; font-family:'Times New Roman'" class="mb-0 sub-2">EXHIBIT</div>
     </div>
 
-    <div class="d-flex justify-content-center"> <!--SEZIONE 2-->
+    <div class="d-flex justify-content-center" style="margin-top:4rem;"> <!--SEZIONE 2-->
 
         <div class="align-self-center "> <img src="/img/lwing.png" alt="Ala sx" class="wing ml-4"> </div>
         <!-- CAROUSEL PARTIAL-->
-        <div class="center align-self-start">
+        <div class="center align-self-start" style="height:30rem;">
 
                 
                 <div id="carouselExampleIndicators" class="carousel slide d-flex" >
@@ -150,7 +155,7 @@
 
                     <div class="carousel-inner" >
                         <div class="carousel-item active">
-                            <div class="d-flex flex-column" style="max-height:26rem; max-width:32rem; overflow-y:scroll;">
+                            <div class="d-flex flex-column" style="max-width:32rem; max-height:30rem; overflow-y:scroll;">
                                 <div class="sect">
                                    
                                     <div style="font-size: 2rem;" class="sub-1">LA SUBLIMAZIONE DELL'ANIMA</div>
@@ -173,7 +178,7 @@
                         </div>
                         <div class="carousel-item" >
                             <div class="d-flex">
-                                <p class="descr sub-1 sect-sm" style="max-height:40rem; max-width:27.6rem; overflow-y:scroll;text-align:justify; text-justify:inter-word">
+                                <p class="descr sub-1 sect-sm" style="max-width:27.6rem; max-height:30rem; overflow-y:scroll;text-align:justify; text-justify:inter-word">
                                     Il progetto Metamorfosi nasce dal desiderio di poter intraprendere un viaggio introspettivo significativo, scegliendo di veicolare un messaggio d’empatia attraverso l’arte.
 
                                     Giulia Bellandi ed Alessio Angelini hanno deciso di intraprendere un meraviglioso percorso di collaborazione mediante la produzione di opere parietali a sfondo fotografico con farfalle, provenienti da riserve naturali e certificate cruelty free.
@@ -219,6 +224,7 @@
         <img class ="logo" src="/img/zani.png" />
         <img class="logo" src="/img/bresciacapitalepng.png" />
     </div>
+    <div class="bottomadjuster"></div>
 
     <script>
     var carouselManager= {
